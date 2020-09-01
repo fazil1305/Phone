@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHONE PRICE</title>
+</head>
+
+<body style="background-color:powderblue;">
+
+    <div style="color:black">
+        <form action="\predict" method="post">
+            <h2>PHONE PRICE PREDICTION</h2>
+            <h3>BATTERY_POWER IN MAH</h3>
+            <input  name="battery_power" type="number ">
+            <h3>BLUETOOTH</h3>
+            <input  name="blue" type="number ">
+            <h3>CLOCK_SPEED</h3>
+            <input  name="clock_speed" type="number ">
+            <h3>DUAL_SIM</h3>
+            <input  name="dual_sim" type="number ">
+            <h3>FRONT_CAM_MP</h3>
+            <input  name="fc" type="number ">
+            <h3>4G</h3>
+            <input  name="four_g" type="number ">
+            <h3>INTERNAL_MEMORY IN GB</h3>
+            <input  name="int_memory" type="number ">
+            <h3>MOBILE_DEPTH IN CM</h3>
+            <input  name="m_dep" type="number ">
+            <h3>MOBILE_WEIGHT IN GMS</h3>
+            <input  name="mobile_wt" type="number ">
+            <h3>NO.OF.CORES PRESENT</h3>
+            <input  name="n_cores" type="number ">
+            <h3>PRIMARY_CAM_MP</h3>
+            <input  name="pc" type="number ">
+            <h3>PIXEL_HEIGHT</h3>
+            <input  name="px_height" type="number ">
+            <h3>PIXEL_WIDTH</h3>
+            <input  name="px_width" type="number ">
+            <h3>RAM IN MB</h3>
+            <input  name="ram" type="number ">
+            <h3>SCREEN_HEIGHT IN CM</h3>
+            <input  name="sc_h" type="number ">
+            <h3>sSCREEN_WIDTH IN CM</h3>
+            <input  name="sc_w" type="number ">
+            <h3>3G</h3>
+            <input  name="three_g" type="number ">
+            <h3>TOUCH_SCREEN</h3>
+            <input  name="touch_screen" type="number ">
+            <h3>WI-FI</h3>
+            <input  name="wifi" type="number ">
+            
+            <br><br><button id="sub" type="submit ">RESULT</button>
+            <br>
+
+
+
+
+        </form>
+
+
+
+        <br><br><h3>{{prediction_text}}<h3>
+    </div>
+
+
+
+
+    <style>
+        body {
+            background-color: lightslategray;
+            text-align: center;
+            padding: 0px;
+        }
+
+        #research {
+            font-size: 18px;
+            width: 100px;
+            height: 23px;
+            top: 23px;
+        }
+
+        #box {
+            border-radius: 60px;
+            border-color: 45px;
+            border-style: solid;
+            font-family: cursive;
+            text-align: center;
+            background-color: rgb(168, 131, 61);
+            font-size: medium;
+            position: absolute;
+            width: 700px;
+            bottom: 9%;
+            height: 850px;
+            right: 30%;
+            padding: 0px;
+            margin: 0px;
+            font-size: 14px;
+        }
+
+        #fuel {
+            width: 83px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 20px;
+        }
+
+        #fuel:hover {
+            background-color: coral;
+        }
+
+        #research {
+            width: 99px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+
+        #research:hover {
+            background-color: coral;
+        }
+
+        #resea {
+            width: 99px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+
+        #resea:hover {
+            background-color: coral;
+        }
+
+        #sub {
+            width: 120px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+
+        #sub:hover {
+            background-color: darkcyan;
+        }
+
+        #first {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #second {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #third {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #fourth {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</body>
+
+</html>
